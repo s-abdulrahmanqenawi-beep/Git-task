@@ -38,5 +38,5 @@ def main():
     s1.draw()
     s2.draw()
     s3.draw()
-    print("Classmate update here!")
+    print("Conflict from GitHub!")
 main()
