@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Registration Form</h2>
+
+    <form action="#" method="POST">
+
+        <div>
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter password (min 6 chars)"
+                minlength="6" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="confirm_password">Confirm Password:</label><br>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="Re-enter password"
+                minlength="6" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="country">Country:</label><br>
+            <select id="country" name="country" required>
+                <option value="" disabled selected>-- Select your country --</option>
+                <option value="egypt">Egypt</option>
+                <option value="saudi_arabia">Saudi Arabia</option>
+                <option value="uae">UAE</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+        </div>
+        <br>
+
+        <div>
+            <label>Interests:</label><br>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label><br>
+
+            <input type="checkbox" id="design" name="interests" value="design">
+            <label for="design">Design</label><br>
+
+            <input type="checkbox" id="gaming" name="interests" value="gaming">
+            <label for="gaming">Gaming</label>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+</body>
+
+</html>
