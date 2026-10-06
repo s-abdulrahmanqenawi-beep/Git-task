@@ -38,4 +38,5 @@ def main():
     s1.draw()
     s2.draw()
     s3.draw()
+    print("New update here!")
 main()
